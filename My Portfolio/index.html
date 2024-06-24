@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/aea96e7e7a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Main -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="nav">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-close" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer and Full Stack Developer</p>
+                <h1>Hi, I'm <span>Rahavi</span> <br> Sirithar From Srilanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="/images/user.png"></div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>I have extensive experience in full stack and app development and competent graphic designer. My area of expertise is developing intuitive, user-friendly mobile and online applications from the ground up. I provide aesthetically pleasing and extremely functional digital solutions since I have a strong sense of aesthetics and a thorough understanding of code. With my background in both front-end and back-end programming, I can guarantee reliable and scalable outcomes. I have a strong passion for invention and problem-solving, and I enjoy simplifying difficult problems into workable answers.</p>
+                    <div class="tab-title">
+                        <p class="tab-link active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Jaffna Vembadi Girls' High School</span><br>
+                                <p>Ordinary Level-9A</p>
+                                <p>Advance Level-3A</p>
+                            </li>
+                            <li><span>University of Moratuwa</span><br>Bachelor of Computer Science Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Final high-fidelity designs with explanations of design choices (colors, typography, layout). <br> Prototypes showing user flows and interactions. <br> Tools Used: Figma, Adobe XD, Adobe Illustrator</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> Handling both front-end and back-end development to deliver complete web applications. <br> Expertise in stacks like MongoDB, Express.js, Angular/React, and Node.js. <br> Keeping websites up-to-date with the latest security patches and features.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>                    
+                    <h2>App Development</h2>
+                    <p>Building cross-platform apps with a single codebase using React Native. <br> Creating hybrid mobile apps using web technologies like HTML, CSS, and JavaScript with frameworks such as Ionic and Cordova. <br> Enhancing app performance for faster and more efficient usage</p>
+                    <a href="#">Learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work Samples</h1>
+            <div class="work-list"> 
+                <div class="work">
+                    <img src="/images/My first ProjectRahavi.png">
+                    <div class="layer">
+                        <h3>Food Ordering App</h3>
+                        <p>The app connects you to buy foods from shop</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/Second Project.png">
+                    <div class="layer">
+                        <h3>Ticket Booking App</h3>
+                        <p>The app connects you to get tickets for movies</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/Screenshot 2024-06-18 at 22.36.27.png">
+                    <div class="layer">
+                        <h3>Amazon Clone App</h3>
+                        <p>The app helps you to buy all things in one place</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/RahaviSiri" class="btn">See More</a>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i>rahavi24siri@gmail.com</p>
+                    <p><i class="fas fa-phone-square"></i>0777123986</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=100083403225114"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/rahavi_siri/"><i class="fab fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/rahavi-sirithar-a2a507292"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/my-cv.pdf" download="" class="btn btn-tool">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your Name" required>
+                        <input type="email" name="Email" placeholder="Enter your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Enter Message"></textarea>
+                        <button type="submit" class="btn btn-tool">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Rahavi <i class="fas fa-heart"></i> Sirithar</p>
+        </div>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwHE0d0XkLYEKHgVIq3ljWJw3m8QFOgMA3JI5JgkSuLkyKZ5enMz5GctvJQd9tVBSsQHg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const mms = "Succesfully Sent";
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                document.getElementById('msg').innerHTML = mms;
+                setTimeout(() => {
+                    document.getElementById('msg').innerHTML = '';
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script src="/script.js"></script>
+</body>
+</html>

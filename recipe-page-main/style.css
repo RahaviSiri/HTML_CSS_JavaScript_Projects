@@ -1,0 +1,108 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235vh; 
+}
+
+.wrapper {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    max-width: 375px;
+    width: 100%; 
+}
+
+.image-container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: serif;
+}
+
+#para {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.time h3 {
+    padding-left: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.Ingredients h2,
+.Instuctions h2,
+.Nutrition h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.val {
+    color: hsl(14, 45%, 36%);
+    padding-left: 200px;
+}
+
+.name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.ul1,
+.ol1 {
+    padding-left: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 18px;
+} 
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td {
+    border-bottom: 1px solid #000;
+    padding: 8px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media query for larger screens */
+@media (min-width: 375px) {
+    .wrapper {
+        width: 100%; 
+    }
+}
+

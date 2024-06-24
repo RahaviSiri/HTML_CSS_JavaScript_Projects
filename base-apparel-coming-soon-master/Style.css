@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    Font-size: 16px;
+    font-family: "Josefin Sans";
+    background-color:Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%) no-repeat center center;
+}
+.container{
+    display: flex;
+}
+.container-content{
+    background-image: url(/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg);
+    width: 100%;
+    height: 100vh;
+    flex-basis: 60%;
+}
+.container-backround{
+    background-image: url(/base-apparel-coming-soon-master/images/hero-desktop.jpg);
+    flex-basis: 40%;
+}
+.container-backround img{
+    width: 100%;
+    height: 100vh;
+}
+
+/*  */
+.logo{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.coming-soon{
+    margin-left: 100px;
+    margin-top: 100px;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(0, 6%, 24%);
+}
+.coming-soon span{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+.welcome-msg{
+    margin-left: 100px;
+    margin-top: -20px;
+    color: hsl(0, 36%, 70%);
+    line-height: 25px;
+}
+.form{
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+.form input{
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 50px;
+    padding: 15px;
+    width: 300px;
+    font-size: 16px;
+}
+input::placeholder{
+    color:hsl(0, 36%, 70%) ;
+}
+.form .img{
+    background-color: hsl(0, 93%, 68%);
+    width: 100px;
+    border-radius:50px 50px;
+    cursor: pointer;
+    margin-left: -52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 5px 4px rgba(138, 137, 137, 0.15);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
